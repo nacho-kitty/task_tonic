@@ -1,2 +1,2 @@
 # task_tonic
-a to-do list. made in partnership with @gisellet
+a to-do list. made in partnership with @gisellets
