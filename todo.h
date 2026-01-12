@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <ctime>
 using namespace std;
 
 class Todo{
@@ -9,7 +10,7 @@ class Todo{
     bool completed;
 
     // (stays) private
-    int date_assigned;
+    time_t date_assigned;
 
 public:
 
