@@ -37,3 +37,17 @@ bool Todo::get_completed() const {
     return completed:
 }
 
+string Todo::change_title() {
+    string updated;
+
+    cin >> updated;
+    title = updated;
+
+    return title;
+}
+
+string Todo::make_complete() {
+    completed = true;
+    return completed;
+}
+
