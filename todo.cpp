@@ -20,3 +20,20 @@ Todo::Todo(string title, string class_for, time_t due_date, bool completed){
     time_t due_date = due_date;
     bool completed = completed;
 }
+
+string Todo::get_title() const{
+    return title; 
+}
+
+string Todo::get_class_for() const {
+    return class_for;
+}
+
+int Todo::get_due_date() const { //i think this is supposed to be a const. idk
+    return due_date;
+}//need to make a to_string() later for displaying this
+
+bool Todo::get_completed() const {
+    return completed:
+}
+
