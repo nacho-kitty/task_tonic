@@ -6,7 +6,7 @@ using namespace std;
 class Todo{
 
     string title, class_for;
-    int due_date;
+    int month_due, day_due;
     bool completed;
 
     // (stays) private
@@ -16,7 +16,7 @@ public:
 
     //constructors
     Todo();
-    Todo(title, class_for, due_date, completed);
+    Todo(title, class_for, month_due, day_due, completed);
     
     //accessors
     string get_title();
