@@ -24,9 +24,12 @@ string Todo::get_class_for() const {
     return class_for;
 }
 
-int Todo::get_due_date() const { //i think this is supposed to be a const. idk
-    return (month_due + "/" + day_due);
+int Todo::get_month_due() const {
+    return month_due;
 }//need to make a to_string() later for displaying this
+
+int Todo::get_day_due() const {
+    return day_due;
 
 bool Todo::get_completed() const {
     return completed:
